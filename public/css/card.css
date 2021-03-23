@@ -1,0 +1,43 @@
+.card_trial{
+    max-width: 300px;
+
+    height: 220px;
+     background: #fff;
+     margin: 30px 10px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+     transition: 0.3s ease-in-out;
+}
+
+.card_trial:hover {
+    height: 420px;
+}
+
+.card_trial .img_work {
+    position: relative;
+    max-width: 260px;
+    max-height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card_trial .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.card_trial:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin: -40px;
+    transition-delay: 0.3s;
+}
