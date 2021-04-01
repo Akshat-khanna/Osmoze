@@ -1,0 +1,55 @@
+
+.footer-link,.footer-link:focus,.btn.btn-social-icon
+{
+    color: rgba(255, 255, 255, 0.7);
+    /* border: 1px solid red; */
+
+}
+.footer-link:hover
+{
+    color: white;
+}
+
+h5.heading{
+    color: white;
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #232931;
+    color: rgba(255, 255, 255, 0.7) ;
+    padding-top: 2rem;
+    
+}
+
+.btn.btn-social-icon .fa {
+    font-size: 2rem;
+}
+
+hr {
+    border: 1px solid #91989e;
+    margin-bottom: 0;
+    /* color: blanchedalmond; */
+}
+
+.logo{
+
+    width: 100px;
+}
+
+
+  
+  
+.timers {
+    display: flex;
+}
+
+
+  #world {
+    z-index: 1;
+  }
+
+ 
+ 
+ 
+
